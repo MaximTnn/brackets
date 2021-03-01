@@ -6,7 +6,9 @@ module.exports = function check(str, bracketsConfig) {
         closeIndex,
         openIndex,
         lenStr = chars.length,
-        matchCheck = false,
+        matchCheck = false;
+
+
     
     for (let i = 0, l = bracketsConfig.length; i < l; i++) {  
         let charOpen = (bracketsConfig[i])[0],    
